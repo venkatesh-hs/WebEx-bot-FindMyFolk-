@@ -1,0 +1,44 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": " Find My folk",
+      "horizontalAlignment": "Center",
+      "wrap": true,
+      "style": "heading"
+    },
+    {
+      "type": "Input.Text",
+      "id": "project",
+      "label": "Project",
+      "isRequired": true,
+      "errorMessage": "Username is required"
+    },
+    {
+      "type": "Input.Text",
+      "id": "component",
+      "style": "Password",
+      "label": "Component",
+      "errorMessage": "Password is required"
+    },
+    {
+      "type": "Input.Text",
+      "label": "Role",
+      "id": "role"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Search",
+      "data": {
+        "callback_keyword": "findmyfolk"
+      }
+    }
+  ]
+}
