@@ -17,14 +17,13 @@
       "id": "project",
       "label": "Project",
       "isRequired": true,
-      "errorMessage": "Username is required"
+      "errorMessage": "project Name is required"
     },
     {
       "type": "Input.Text",
       "id": "component",
       "style": "Password",
-      "label": "Component",
-      "errorMessage": "Password is required"
+      "label": "Component"
     },
     {
       "type": "Input.Text",
