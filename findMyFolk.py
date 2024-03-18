@@ -38,6 +38,7 @@ class findmyfolk(Command):
             outCard.add(Fact(title="Name : ",value=f"{folk['name']}"))
             outCard.add(Fact(title="Component : ",value=f"{folk['domain']}"))
             outCard.add(Fact(title="Role : ",value=f"{folk['position']}"))
+            outCard.add(Fact(title="Project : ",value=f"{folk['projectName']}"))
             outCard.add(Fact(title="------",value="---------"))
         card_data=json.loads(asyncio.run(outCard.to_json()))
         card_payload = {

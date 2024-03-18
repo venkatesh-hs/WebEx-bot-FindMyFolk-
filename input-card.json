@@ -15,9 +15,7 @@
     {
       "type": "Input.Text",
       "id": "project",
-      "label": "Project",
-      "isRequired": true,
-      "errorMessage": "project Name is required"
+      "label": "Project"
     },
     {
       "type": "Input.Text",
